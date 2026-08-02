@@ -82,5 +82,11 @@
     "kind": "patchwork",
     "palette": "Marigold Court",
     "title": "Bazaar Petal"
+  },
+  "2026-08-16": {
+    "seed": "2026-08-16",
+    "kind": "mandala",
+    "palette": "Monsoon",
+    "title": "Paper Tile"
   }
 }
