@@ -1,0 +1,72 @@
+.dd-canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.dd-region {
+  fill-opacity: var(--fo, 0);
+  transition: fill-opacity 260ms ease;
+  cursor: pointer;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+/* Faint color preview on hover so the next tap feels invited. */
+@media (hover: hover) {
+  .dd-canvas:not(.dd-canvas-done) .dd-region:not(.dd-done):hover {
+    fill-opacity: max(var(--fo, 0), 0.16);
+  }
+}
+
+/* Watercolor pulse each time a region takes a click. */
+.dd-just {
+  animation: dd-pop 300ms ease;
+}
+
+.dd-done {
+  animation: dd-settle 420ms ease;
+}
+
+.dd-decor {
+  pointer-events: none;
+}
+
+.dd-canvas-done .dd-region {
+  cursor: default;
+}
+
+@keyframes dd-pop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes dd-settle {
+  0% {
+    transform: scale(1.07);
+  }
+  60% {
+    transform: scale(0.99);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dd-region,
+  .dd-just,
+  .dd-done {
+    animation: none !important;
+    transition: none !important;
+  }
+}
