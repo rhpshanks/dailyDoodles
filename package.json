@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "queue:topup": "tsx scripts/queue.ts topup",
+    "queue:status": "tsx scripts/queue.ts status"
   },
   "dependencies": {
     "@fontsource-variable/outfit": "^5.2.5",
@@ -22,6 +24,7 @@
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.0.4",
     "tailwindcss": "^4.2.1",
+    "tsx": "^4.23.4",
     "typescript": "^5.8.3",
     "vite": "^7.3.1"
   }

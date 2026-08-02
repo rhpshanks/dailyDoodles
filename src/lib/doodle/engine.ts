@@ -1,7 +1,30 @@
 // Deterministic doodle engine. Every calendar date (PKT) maps to exactly one
-// page of clickable regions. Client and server rebuild the identical doodle
-// from the date string alone, so the server can verify a completed page
-// without storing any geometry.
+// page of clickable regions, rebuilt identically anywhere from the date alone.
+//
+// schedule.json is the approved queue: an entry pins what a given day will
+// show, so a later change to the default rules below cannot silently reshape
+// an upcoming page. Days with no entry fall back to these defaults, which is
+// why an empty or stale queue can never leave a day blank.
+//
+// Entries for dates that have already passed must never be added or edited:
+// finished pages are re-rendered from their date for the book and the PDF, so
+// changing an old day would rewrite art someone already colored.
+
+import scheduleJson from "../../data/schedule.json";
+
+export type QueueEntry = {
+  seed?: string;
+  kind?: DoodleKind;
+  palette?: string;
+  title?: string;
+  note?: string;
+};
+
+const SCHEDULE = scheduleJson as Record<string, QueueEntry>;
+
+export function scheduledEntry(date: string): QueueEntry | undefined {
+  return SCHEDULE[date];
+}
 
 export type Region = {
   d: string; // svg path data
@@ -296,13 +319,18 @@ function buildPatchwork(rng: () => number, colors: string[]): { regions: Omit<Re
 }
 
 export function buildDoodle(date: string): Doodle {
-  const seed = hashSeed(date);
-  const rng = mulberry32(seed);
+  const entry = SCHEDULE[date];
+  const rng = mulberry32(hashSeed(entry?.seed ?? date));
   const dayNo = dayNoFor(date);
   const weekend = isWeekend(date);
-  const kind: DoodleKind = dayNo % 2 === 0 ? "patchwork" : "mandala";
-  const palette = PALETTES[Math.floor(rng() * PALETTES.length)];
-  const title = `${ADJ[Math.floor(rng() * ADJ.length)]} ${NOUN[Math.floor(rng() * NOUN.length)]}`;
+  const kind: DoodleKind = entry?.kind ?? (dayNo % 2 === 0 ? "patchwork" : "mandala");
+
+  // These rolls happen whether or not the entry overrides them, so pinning a
+  // title never reshuffles the geometry that follows.
+  const rolledPalette = PALETTES[Math.floor(rng() * PALETTES.length)];
+  const rolledTitle = `${ADJ[Math.floor(rng() * ADJ.length)]} ${NOUN[Math.floor(rng() * NOUN.length)]}`;
+  const palette = (entry?.palette && PALETTES.find((p) => p.name === entry.palette)) || rolledPalette;
+  const title = entry?.title ?? rolledTitle;
 
   const built =
     kind === "mandala" ? buildMandala(rng, palette.colors) : buildPatchwork(rng, palette.colors);
