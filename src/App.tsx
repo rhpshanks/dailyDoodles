@@ -12,7 +12,9 @@ import {
   buildDoodle,
   dayNoFor,
   longDateLabel,
+  msToNextMidnightPkt,
   shortDayLabel,
+  todayKeyPkt,
 } from "./lib/doodle/engine";
 
 function useReducedMotion(): boolean {
@@ -125,8 +127,13 @@ export function App() {
   );
   const ghostB = useMemo(() => buildDoodle("2026-08-01"), []);
 
+  // The day currently on screen, so a rollover can be detected without
+  // re-running the timer effect on every state change.
+  const loadedDayRef = useRef(state.today);
+
   const reload = useCallback(() => {
     const next = loadState();
+    loadedDayRef.current = next.today;
     setState(next);
     setMsLeft(next.msLeft);
     setActiveDate(next.today);
@@ -135,19 +142,21 @@ export function App() {
     applyFills(next.todayFills ?? buildDoodle(next.today).regions.map(() => 0));
   }, [applyFills]);
 
-  // Countdown to the next page, which swaps the board at midnight.
+  // Midnight rollover. Each tick reads the real clock rather than counting
+  // down, because background tabs get throttled and sleeping devices stop
+  // timers entirely: a subtracted countdown would swap the page late by
+  // however long it was frozen. Waking the tab re-checks immediately.
   useEffect(() => {
-    const iv = window.setInterval(() => {
-      setMsLeft((prev) => {
-        const next = prev - 30000;
-        if (next <= 0) {
-          reload();
-          return loadState().msLeft;
-        }
-        return next;
-      });
-    }, 30000);
-    return () => window.clearInterval(iv);
+    const tick = () => {
+      setMsLeft(msToNextMidnightPkt());
+      if (todayKeyPkt() !== loadedDayRef.current) reload();
+    };
+    const iv = window.setInterval(tick, 20000);
+    document.addEventListener("visibilitychange", tick);
+    return () => {
+      window.clearInterval(iv);
+      document.removeEventListener("visibilitychange", tick);
+    };
   }, [reload]);
 
   const finish = useCallback(
