@@ -94,5 +94,11 @@
     "kind": "patchwork",
     "palette": "Marigold Court",
     "title": "Marigold Tile"
+  },
+  "2026-08-18": {
+    "seed": "2026-08-18",
+    "kind": "mandala",
+    "palette": "Lantern Night",
+    "title": "Monsoon Courtyard"
   }
 }
