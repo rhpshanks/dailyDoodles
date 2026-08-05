@@ -100,5 +100,11 @@
     "kind": "mandala",
     "palette": "Lantern Night",
     "title": "Monsoon Courtyard"
+  },
+  "2026-08-19": {
+    "seed": "2026-08-19",
+    "kind": "patchwork",
+    "palette": "Sea Glass",
+    "title": "Indigo Wheel"
   }
 }
