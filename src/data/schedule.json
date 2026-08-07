@@ -112,5 +112,11 @@
     "kind": "mandala",
     "palette": "Marigold Court",
     "title": "Monsoon Compass"
+  },
+  "2026-08-21": {
+    "seed": "2026-08-21",
+    "kind": "patchwork",
+    "palette": "Monsoon",
+    "title": "Saffron Wheel"
   }
 }
