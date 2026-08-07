@@ -106,5 +106,11 @@
     "kind": "patchwork",
     "palette": "Sea Glass",
     "title": "Indigo Wheel"
+  },
+  "2026-08-20": {
+    "seed": "2026-08-20",
+    "kind": "mandala",
+    "palette": "Marigold Court",
+    "title": "Monsoon Compass"
   }
 }
