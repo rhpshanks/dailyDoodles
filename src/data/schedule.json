@@ -124,5 +124,11 @@
     "kind": "mandala",
     "palette": "Marigold Court",
     "title": "Velvet Bloom"
+  },
+  "2026-08-23": {
+    "seed": "2026-08-23",
+    "kind": "patchwork",
+    "palette": "Rose Garden",
+    "title": "Monsoon Compass"
   }
 }
