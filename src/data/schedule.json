@@ -142,5 +142,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Golden Tile"
+  },
+  "2026-08-26": {
+    "seed": "2026-08-26",
+    "kind": "mandala",
+    "palette": "Monsoon",
+    "title": "Marigold Compass"
   }
 }
