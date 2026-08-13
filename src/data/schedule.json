@@ -148,5 +148,11 @@
     "kind": "mandala",
     "palette": "Monsoon",
     "title": "Marigold Compass"
+  },
+  "2026-08-27": {
+    "seed": "2026-08-27",
+    "kind": "patchwork",
+    "palette": "Lantern Night",
+    "title": "Quiet Halo"
   }
 }
