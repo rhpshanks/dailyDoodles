@@ -154,5 +154,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Quiet Halo"
+  },
+  "2026-08-28": {
+    "seed": "2026-08-28",
+    "kind": "mandala",
+    "palette": "Lantern Night",
+    "title": "Monsoon Meadow"
   }
 }
