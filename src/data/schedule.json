@@ -166,5 +166,11 @@
     "kind": "patchwork",
     "palette": "Rose Garden",
     "title": "Lantern Wheel"
+  },
+  "2026-08-30": {
+    "seed": "2026-08-30",
+    "kind": "mandala",
+    "palette": "Sea Glass",
+    "title": "Quiet Bloom"
   }
 }
