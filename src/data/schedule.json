@@ -178,5 +178,11 @@
     "kind": "patchwork",
     "palette": "Marigold Court",
     "title": "Saffron Courtyard"
+  },
+  "2026-09-01": {
+    "seed": "2026-09-01",
+    "kind": "mandala",
+    "palette": "Sea Glass",
+    "title": "Paper Halo"
   }
 }
