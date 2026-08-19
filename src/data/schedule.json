@@ -184,5 +184,11 @@
     "kind": "mandala",
     "palette": "Sea Glass",
     "title": "Paper Halo"
+  },
+  "2026-09-02": {
+    "seed": "2026-09-02",
+    "kind": "patchwork",
+    "palette": "Marigold Court",
+    "title": "Golden Courtyard"
   }
 }
