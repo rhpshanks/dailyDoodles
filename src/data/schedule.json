@@ -214,5 +214,11 @@
     "kind": "patchwork",
     "palette": "Monsoon",
     "title": "Indigo Lattice"
+  },
+  "2026-09-07": {
+    "seed": "2026-09-07",
+    "kind": "mandala",
+    "palette": "Monsoon",
+    "title": "Garden Lattice"
   }
 }
