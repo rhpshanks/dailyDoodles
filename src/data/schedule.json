@@ -220,5 +220,11 @@
     "kind": "mandala",
     "palette": "Monsoon",
     "title": "Garden Lattice"
+  },
+  "2026-09-08": {
+    "seed": "2026-09-08",
+    "kind": "patchwork",
+    "palette": "Marigold Court",
+    "title": "Saffron Compass"
   }
 }
