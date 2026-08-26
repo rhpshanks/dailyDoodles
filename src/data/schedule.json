@@ -226,5 +226,11 @@
     "kind": "patchwork",
     "palette": "Marigold Court",
     "title": "Saffron Compass"
+  },
+  "2026-09-09": {
+    "seed": "2026-09-09",
+    "kind": "mandala",
+    "palette": "Rose Garden",
+    "title": "Marigold Bloom"
   }
 }
