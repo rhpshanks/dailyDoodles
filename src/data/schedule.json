@@ -244,5 +244,11 @@
     "kind": "mandala",
     "palette": "Rose Garden",
     "title": "Saffron Petal"
+  },
+  "2026-09-12": {
+    "seed": "2026-09-12",
+    "kind": "patchwork",
+    "palette": "Lantern Night",
+    "title": "Monsoon Compass"
   }
 }
