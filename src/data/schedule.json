@@ -250,5 +250,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Monsoon Compass"
+  },
+  "2026-09-13": {
+    "seed": "2026-09-13",
+    "kind": "mandala",
+    "palette": "Lantern Night",
+    "title": "Marigold Bloom"
   }
 }
