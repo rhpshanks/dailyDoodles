@@ -262,5 +262,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Quiet Garland"
+  },
+  "2026-09-15": {
+    "seed": "2026-09-15",
+    "kind": "mandala",
+    "palette": "Lantern Night",
+    "title": "Indigo Meadow"
   }
 }
