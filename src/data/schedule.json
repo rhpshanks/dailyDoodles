@@ -280,5 +280,11 @@
     "kind": "mandala",
     "palette": "Monsoon",
     "title": "Morning Meadow"
+  },
+  "2026-09-18": {
+    "seed": "2026-09-18",
+    "kind": "patchwork",
+    "palette": "Marigold Court",
+    "title": "Lantern Wheel"
   }
 }
