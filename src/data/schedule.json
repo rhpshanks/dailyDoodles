@@ -286,5 +286,11 @@
     "kind": "patchwork",
     "palette": "Marigold Court",
     "title": "Lantern Wheel"
+  },
+  "2026-09-19": {
+    "seed": "2026-09-19",
+    "kind": "mandala",
+    "palette": "Rose Garden",
+    "title": "Paper Compass"
   }
 }
