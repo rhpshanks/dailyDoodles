@@ -292,5 +292,11 @@
     "kind": "mandala",
     "palette": "Rose Garden",
     "title": "Paper Compass"
+  },
+  "2026-09-20": {
+    "seed": "2026-09-20",
+    "kind": "patchwork",
+    "palette": "Lantern Night",
+    "title": "Paper Meadow"
   }
 }
