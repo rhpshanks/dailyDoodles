@@ -304,5 +304,11 @@
     "kind": "mandala",
     "palette": "Lantern Night",
     "title": "Lantern Kite"
+  },
+  "2026-09-22": {
+    "seed": "2026-09-22",
+    "kind": "patchwork",
+    "palette": "Marigold Court",
+    "title": "Paper Petal"
   }
 }
