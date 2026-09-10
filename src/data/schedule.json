@@ -316,5 +316,11 @@
     "kind": "mandala",
     "palette": "Rose Garden",
     "title": "Marigold Petal"
+  },
+  "2026-09-24": {
+    "seed": "2026-09-24",
+    "kind": "patchwork",
+    "palette": "Marigold Court",
+    "title": "Bazaar Meadow"
   }
 }
