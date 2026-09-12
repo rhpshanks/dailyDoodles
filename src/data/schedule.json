@@ -328,5 +328,11 @@
     "kind": "mandala",
     "palette": "Rose Garden",
     "title": "Lantern Tile"
+  },
+  "2026-09-26": {
+    "seed": "2026-09-26",
+    "kind": "patchwork",
+    "palette": "Rose Garden",
+    "title": "Morning Compass"
   }
 }
