@@ -340,5 +340,11 @@
     "kind": "mandala",
     "palette": "Sea Glass",
     "title": "Paper Meadow"
+  },
+  "2026-09-28": {
+    "seed": "2026-09-28",
+    "kind": "patchwork",
+    "palette": "Sea Glass",
+    "title": "Bazaar Courtyard"
   }
 }
