@@ -352,5 +352,11 @@
     "kind": "mandala",
     "palette": "Monsoon",
     "title": "Morning Bloom"
+  },
+  "2026-09-30": {
+    "seed": "2026-09-30",
+    "kind": "patchwork",
+    "palette": "Rose Garden",
+    "title": "Velvet Bloom"
   }
 }
