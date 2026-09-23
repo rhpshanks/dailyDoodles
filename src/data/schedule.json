@@ -394,5 +394,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Paper Courtyard"
+  },
+  "2026-10-07": {
+    "seed": "2026-10-07",
+    "kind": "mandala",
+    "palette": "Lantern Night",
+    "title": "Golden Compass"
   }
 }
