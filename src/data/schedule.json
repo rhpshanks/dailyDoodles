@@ -400,5 +400,11 @@
     "kind": "mandala",
     "palette": "Lantern Night",
     "title": "Golden Compass"
+  },
+  "2026-10-08": {
+    "seed": "2026-10-08",
+    "kind": "patchwork",
+    "palette": "Rose Garden",
+    "title": "Indigo Bloom"
   }
 }
