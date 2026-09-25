@@ -406,5 +406,11 @@
     "kind": "patchwork",
     "palette": "Rose Garden",
     "title": "Indigo Bloom"
+  },
+  "2026-10-09": {
+    "seed": "2026-10-09",
+    "kind": "mandala",
+    "palette": "Monsoon",
+    "title": "Lantern Window"
   }
 }
