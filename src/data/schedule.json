@@ -418,5 +418,11 @@
     "kind": "patchwork",
     "palette": "Rose Garden",
     "title": "Marigold Halo"
+  },
+  "2026-10-11": {
+    "seed": "2026-10-11",
+    "kind": "mandala",
+    "palette": "Lantern Night",
+    "title": "Monsoon Kite"
   }
 }
