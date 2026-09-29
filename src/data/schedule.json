@@ -430,5 +430,11 @@
     "kind": "patchwork",
     "palette": "Sea Glass",
     "title": "Velvet Compass"
+  },
+  "2026-10-13": {
+    "seed": "2026-10-13",
+    "kind": "mandala",
+    "palette": "Monsoon",
+    "title": "Morning Meadow"
   }
 }
