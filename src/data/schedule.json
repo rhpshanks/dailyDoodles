@@ -478,5 +478,11 @@
     "kind": "patchwork",
     "palette": "Marigold Court",
     "title": "Paper Meadow"
+  },
+  "2026-10-21": {
+    "seed": "2026-10-21",
+    "kind": "mandala",
+    "palette": "Monsoon",
+    "title": "Golden Compass"
   }
 }
