@@ -484,5 +484,11 @@
     "kind": "mandala",
     "palette": "Monsoon",
     "title": "Golden Compass"
+  },
+  "2026-10-22": {
+    "seed": "2026-10-22",
+    "kind": "patchwork",
+    "palette": "Lantern Night",
+    "title": "Velvet Petal"
   }
 }
