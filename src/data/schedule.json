@@ -502,5 +502,11 @@
     "kind": "patchwork",
     "palette": "Rose Garden",
     "title": "Garden Window"
+  },
+  "2026-10-25": {
+    "seed": "2026-10-25",
+    "kind": "mandala",
+    "palette": "Rose Garden",
+    "title": "Monsoon Lattice"
   }
 }
