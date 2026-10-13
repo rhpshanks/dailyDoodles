@@ -508,5 +508,11 @@
     "kind": "mandala",
     "palette": "Rose Garden",
     "title": "Monsoon Lattice"
+  },
+  "2026-10-26": {
+    "seed": "2026-10-26",
+    "kind": "patchwork",
+    "palette": "Lantern Night",
+    "title": "Golden Halo"
   }
 }
