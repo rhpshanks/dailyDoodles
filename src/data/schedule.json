@@ -514,5 +514,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Golden Halo"
+  },
+  "2026-10-27": {
+    "seed": "2026-10-27",
+    "kind": "mandala",
+    "palette": "Sea Glass",
+    "title": "Golden Compass"
   }
 }
