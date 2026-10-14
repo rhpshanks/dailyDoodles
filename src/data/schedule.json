@@ -520,5 +520,11 @@
     "kind": "mandala",
     "palette": "Sea Glass",
     "title": "Golden Compass"
+  },
+  "2026-10-28": {
+    "seed": "2026-10-28",
+    "kind": "patchwork",
+    "palette": "Marigold Court",
+    "title": "Golden Lattice"
   }
 }
