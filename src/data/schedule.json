@@ -526,5 +526,11 @@
     "kind": "patchwork",
     "palette": "Marigold Court",
     "title": "Golden Lattice"
+  },
+  "2026-10-29": {
+    "seed": "2026-10-29",
+    "kind": "mandala",
+    "palette": "Monsoon",
+    "title": "Morning Tile"
   }
 }
