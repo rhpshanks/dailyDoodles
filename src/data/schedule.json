@@ -532,5 +532,11 @@
     "kind": "mandala",
     "palette": "Monsoon",
     "title": "Morning Tile"
+  },
+  "2026-10-30": {
+    "seed": "2026-10-30",
+    "kind": "patchwork",
+    "palette": "Marigold Court",
+    "title": "Lantern Halo"
   }
 }
