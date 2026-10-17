@@ -538,5 +538,11 @@
     "kind": "patchwork",
     "palette": "Marigold Court",
     "title": "Lantern Halo"
+  },
+  "2026-10-31": {
+    "seed": "2026-10-31",
+    "kind": "mandala",
+    "palette": "Rose Garden",
+    "title": "Velvet Petal"
   }
 }
