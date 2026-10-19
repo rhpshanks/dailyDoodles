@@ -550,5 +550,11 @@
     "kind": "patchwork",
     "palette": "Sea Glass",
     "title": "Saffron Halo"
+  },
+  "2026-11-02": {
+    "seed": "2026-11-02",
+    "kind": "mandala",
+    "palette": "Marigold Court",
+    "title": "Bazaar Tile"
   }
 }
