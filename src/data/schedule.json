@@ -556,5 +556,11 @@
     "kind": "mandala",
     "palette": "Marigold Court",
     "title": "Bazaar Tile"
+  },
+  "2026-11-03": {
+    "seed": "2026-11-03",
+    "kind": "patchwork",
+    "palette": "Sea Glass",
+    "title": "Lantern Wheel"
   }
 }
