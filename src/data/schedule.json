@@ -580,5 +580,11 @@
     "kind": "mandala",
     "palette": "Marigold Court",
     "title": "Quiet Petal"
+  },
+  "2026-11-07": {
+    "seed": "2026-11-07",
+    "kind": "patchwork",
+    "palette": "Lantern Night",
+    "title": "Morning Bloom"
   }
 }
