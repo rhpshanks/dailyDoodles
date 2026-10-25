@@ -586,5 +586,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Morning Bloom"
+  },
+  "2026-11-08": {
+    "seed": "2026-11-08",
+    "kind": "mandala",
+    "palette": "Rose Garden",
+    "title": "Lantern Bloom"
   }
 }
