@@ -598,5 +598,11 @@
     "kind": "patchwork",
     "palette": "Rose Garden",
     "title": "Bazaar Petal"
+  },
+  "2026-11-10": {
+    "seed": "2026-11-10",
+    "kind": "mandala",
+    "palette": "Sea Glass",
+    "title": "Monsoon Wheel"
   }
 }
