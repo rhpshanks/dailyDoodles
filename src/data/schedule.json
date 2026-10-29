@@ -610,5 +610,11 @@
     "kind": "patchwork",
     "palette": "Rose Garden",
     "title": "Bazaar Kite"
+  },
+  "2026-11-12": {
+    "seed": "2026-11-12",
+    "kind": "mandala",
+    "palette": "Lantern Night",
+    "title": "Marigold Lattice"
   }
 }
