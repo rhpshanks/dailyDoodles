@@ -622,5 +622,11 @@
     "kind": "patchwork",
     "palette": "Monsoon",
     "title": "Garden Tile"
+  },
+  "2026-11-14": {
+    "seed": "2026-11-14",
+    "kind": "mandala",
+    "palette": "Rose Garden",
+    "title": "Saffron Petal"
   }
 }
