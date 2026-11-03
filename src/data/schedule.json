@@ -634,5 +634,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Monsoon Petal"
+  },
+  "2026-11-16": {
+    "seed": "2026-11-16",
+    "kind": "mandala",
+    "palette": "Monsoon",
+    "title": "Marigold Meadow"
   }
 }
