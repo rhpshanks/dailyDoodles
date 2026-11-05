@@ -652,5 +652,11 @@
     "kind": "mandala",
     "palette": "Rose Garden",
     "title": "Quiet Petal"
+  },
+  "2026-11-19": {
+    "seed": "2026-11-19",
+    "kind": "patchwork",
+    "palette": "Marigold Court",
+    "title": "Saffron Garland"
   }
 }
