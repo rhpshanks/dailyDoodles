@@ -658,5 +658,11 @@
     "kind": "patchwork",
     "palette": "Marigold Court",
     "title": "Saffron Garland"
+  },
+  "2026-11-20": {
+    "seed": "2026-11-20",
+    "kind": "mandala",
+    "palette": "Marigold Court",
+    "title": "Quiet Tile"
   }
 }
