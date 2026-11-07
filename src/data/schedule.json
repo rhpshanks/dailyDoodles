@@ -664,5 +664,11 @@
     "kind": "mandala",
     "palette": "Marigold Court",
     "title": "Quiet Tile"
+  },
+  "2026-11-21": {
+    "seed": "2026-11-21",
+    "kind": "patchwork",
+    "palette": "Sea Glass",
+    "title": "Quiet Kite"
   }
 }
