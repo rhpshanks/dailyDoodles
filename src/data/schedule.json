@@ -670,5 +670,11 @@
     "kind": "patchwork",
     "palette": "Sea Glass",
     "title": "Quiet Kite"
+  },
+  "2026-11-22": {
+    "seed": "2026-11-22",
+    "kind": "mandala",
+    "palette": "Sea Glass",
+    "title": "Morning Window"
   }
 }
