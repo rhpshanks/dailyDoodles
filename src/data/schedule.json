@@ -682,5 +682,11 @@
     "kind": "patchwork",
     "palette": "Sea Glass",
     "title": "Golden Wheel"
+  },
+  "2026-11-24": {
+    "seed": "2026-11-24",
+    "kind": "mandala",
+    "palette": "Lantern Night",
+    "title": "Golden Bloom"
   }
 }
