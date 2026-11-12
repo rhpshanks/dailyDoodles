@@ -688,5 +688,11 @@
     "kind": "mandala",
     "palette": "Lantern Night",
     "title": "Golden Bloom"
+  },
+  "2026-11-25": {
+    "seed": "2026-11-25",
+    "kind": "patchwork",
+    "palette": "Lantern Night",
+    "title": "Quiet Kite"
   }
 }
