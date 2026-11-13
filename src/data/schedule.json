@@ -694,5 +694,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Quiet Kite"
+  },
+  "2026-11-26": {
+    "seed": "2026-11-26",
+    "kind": "mandala",
+    "palette": "Sea Glass",
+    "title": "Lantern Compass"
   }
 }
