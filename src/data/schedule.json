@@ -706,5 +706,11 @@
     "kind": "patchwork",
     "palette": "Monsoon",
     "title": "Garden Kite"
+  },
+  "2026-11-28": {
+    "seed": "2026-11-28",
+    "kind": "mandala",
+    "palette": "Marigold Court",
+    "title": "Indigo Wheel"
   }
 }
