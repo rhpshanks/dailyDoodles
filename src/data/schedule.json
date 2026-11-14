@@ -700,5 +700,11 @@
     "kind": "mandala",
     "palette": "Sea Glass",
     "title": "Lantern Compass"
+  },
+  "2026-11-27": {
+    "seed": "2026-11-27",
+    "kind": "patchwork",
+    "palette": "Monsoon",
+    "title": "Garden Kite"
   }
 }
