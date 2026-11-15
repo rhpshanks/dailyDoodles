@@ -712,5 +712,11 @@
     "kind": "mandala",
     "palette": "Marigold Court",
     "title": "Indigo Wheel"
+  },
+  "2026-11-29": {
+    "seed": "2026-11-29",
+    "kind": "patchwork",
+    "palette": "Lantern Night",
+    "title": "Paper Bloom"
   }
 }
