@@ -718,5 +718,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Paper Bloom"
+  },
+  "2026-11-30": {
+    "seed": "2026-11-30",
+    "kind": "mandala",
+    "palette": "Rose Garden",
+    "title": "Indigo Kite"
   }
 }
