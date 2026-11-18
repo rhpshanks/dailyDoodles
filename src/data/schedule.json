@@ -724,5 +724,11 @@
     "kind": "mandala",
     "palette": "Rose Garden",
     "title": "Indigo Kite"
+  },
+  "2026-12-01": {
+    "seed": "2026-12-01",
+    "kind": "patchwork",
+    "palette": "Lantern Night",
+    "title": "Velvet Wheel"
   }
 }
