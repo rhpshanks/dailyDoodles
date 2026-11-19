@@ -730,5 +730,11 @@
     "kind": "patchwork",
     "palette": "Lantern Night",
     "title": "Velvet Wheel"
+  },
+  "2026-12-02": {
+    "seed": "2026-12-02",
+    "kind": "mandala",
+    "palette": "Sea Glass",
+    "title": "Garden Window"
   }
 }
