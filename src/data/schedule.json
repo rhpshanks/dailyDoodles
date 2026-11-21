@@ -742,5 +742,11 @@
     "kind": "patchwork",
     "palette": "Monsoon",
     "title": "Indigo Kite"
+  },
+  "2026-12-04": {
+    "seed": "2026-12-04",
+    "kind": "mandala",
+    "palette": "Rose Garden",
+    "title": "Garden Courtyard"
   }
 }
