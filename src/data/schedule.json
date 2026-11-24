@@ -760,5 +760,11 @@
     "kind": "mandala",
     "palette": "Sea Glass",
     "title": "Velvet Window"
+  },
+  "2026-12-07": {
+    "seed": "2026-12-07",
+    "kind": "patchwork",
+    "palette": "Sea Glass",
+    "title": "Golden Halo"
   }
 }
