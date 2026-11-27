@@ -778,5 +778,11 @@
     "kind": "patchwork",
     "palette": "Monsoon",
     "title": "Saffron Courtyard"
+  },
+  "2026-12-10": {
+    "seed": "2026-12-10",
+    "kind": "mandala",
+    "palette": "Monsoon",
+    "title": "Bazaar Lattice"
   }
 }
