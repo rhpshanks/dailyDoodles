@@ -784,5 +784,11 @@
     "kind": "mandala",
     "palette": "Monsoon",
     "title": "Bazaar Lattice"
+  },
+  "2026-12-11": {
+    "seed": "2026-12-11",
+    "kind": "patchwork",
+    "palette": "Rose Garden",
+    "title": "Velvet Tile"
   }
 }
